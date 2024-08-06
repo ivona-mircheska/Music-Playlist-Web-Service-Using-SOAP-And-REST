@@ -1,0 +1,51 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://example.com/playlist/logging" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://example.com/playlist/logging" targetNamespace="http://example.com/playlist/logging">
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://example.com/playlist/logging">
+			<xsd:element name="LoginRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="username" type="xsd:string"/>
+						<xsd:element name="password" type="xsd:string"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="LoginResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="sessionId" type="xsd:string"/>
+						<xsd:element name="message" type="xsd:string"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="LoginResponse">
+		<wsdl:part element="tns:LoginResponse" name="LoginResponse"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="LoginRequest">
+		<wsdl:part element="tns:LoginRequest" name="LoginRequest"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="Login">
+		<wsdl:operation name="Login">
+			<wsdl:input message="tns:LoginRequest" name="LoginRequest"> </wsdl:input>
+			<wsdl:output message="tns:LoginResponse" name="LoginResponse"> </wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="LoginSoap11" type="tns:Login">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="Login">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="LoginRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="LoginResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="LoginService">
+		<wsdl:port binding="tns:LoginSoap11" name="LoginSoap11">
+			<soap:address location="http://localhost:8080/ws"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
