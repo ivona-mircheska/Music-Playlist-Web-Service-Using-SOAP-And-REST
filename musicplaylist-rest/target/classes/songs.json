@@ -1,0 +1,108 @@
+{
+  "songs" : [ {
+    "title" : "Hotel California",
+    "artist" : "Eagles",
+    "genre" : "Rock",
+    "duration" : 6.3
+  }, {
+    "title" : "Billie Jean",
+    "artist" : "Michael Jackson",
+    "genre" : "Pop",
+    "duration" : 4.53
+  }, {
+    "title" : "Bohemian Rhapsody",
+    "artist" : "Queen",
+    "genre" : "Rock",
+    "duration" : 5.55
+  }, {
+    "title" : "Hey Jude",
+    "artist" : "The Beatles",
+    "genre" : "Rock",
+    "duration" : 7.06
+  }, {
+    "title" : "Stairway To Heaven",
+    "artist" : "Led Zeppelin",
+    "genre" : "Rock",
+    "duration" : 8.02
+  }, {
+    "title" : "Imagine",
+    "artist" : "John Lennon",
+    "genre" : "Pop",
+    "duration" : 3.04
+  }, {
+    "title" : "Sweet Child O' Mine",
+    "artist" : "Guns N' Roses",
+    "genre" : "Rock",
+    "duration" : 5.55
+  }, {
+    "title" : "Thriller",
+    "artist" : "Michael Jackson",
+    "genre" : "Pop",
+    "duration" : 5.57
+  }, {
+    "title" : "Moonlight Sonata",
+    "artist" : "Ludwig van Beethoven",
+    "genre" : "Classical",
+    "duration" : 14.48
+  }, {
+    "title" : "Take Five",
+    "artist" : "Dave Brubeck",
+    "genre" : "Jazz",
+    "duration" : 5.24
+  }, {
+    "title" : "Shape Of My Heart",
+    "artist" : "Sting",
+    "genre" : "Pop",
+    "duration" : 4.39
+  }, {
+    "title" : "I Wanna Dance With Somebody",
+    "artist" : "Whitney Houston",
+    "genre" : "Dance",
+    "duration" : 4.52
+  }, {
+    "title" : "Take It Easy",
+    "artist" : "Eagles",
+    "genre" : "Rock",
+    "duration" : 3.3
+  }, {
+    "title" : "Dancing Queen",
+    "artist" : "ABBA",
+    "genre" : "Pop",
+    "duration" : 3.51
+  }, {
+    "title" : "Born To Run",
+    "artist" : "Bruce Springsteen",
+    "genre" : "Rock",
+    "duration" : 4.3
+  }, {
+    "title" : "Highway To Hell",
+    "artist" : "AC/DC",
+    "genre" : "Rock",
+    "duration" : 3.28
+  }, {
+    "title" : "Smoke On The Water",
+    "artist" : "Deep Purple",
+    "genre" : "Rock",
+    "duration" : 5.4
+  }, {
+    "title" : "Back In Black",
+    "artist" : "AC/DC",
+    "genre" : "Rock",
+    "duration" : 4.15
+  }, {
+    "title" : "Juicebox",
+    "artist" : "The Strokes",
+    "genre" : "Rock",
+    "duration" : 3.17
+  }, {
+    "title" : "Firework",
+    "artist" : "Katy Perry",
+    "genre" : "Pop",
+    "duration" : 3.48
+  }, {
+    "title" : "Firework",
+    "artist" : "Katy Perry",
+    "genre" : "Pop",
+    "duration" : 3.48
+  } ]
+}
