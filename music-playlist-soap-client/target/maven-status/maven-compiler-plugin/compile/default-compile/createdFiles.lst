@@ -1,0 +1,7 @@
+com\example\playlist\logging\LoginResponse.class
+com\musicplaylist\spring\soap\api\config\SoapConfig.class
+com\example\playlist\logging\package-info.class
+com\musicplaylist\spring\soap\api\SpringBootSoapClient.class
+com\example\playlist\logging\LoginRequest.class
+com\musicplaylist\spring\soap\api\client\SoapClient.class
+com\example\playlist\logging\ObjectFactory.class
