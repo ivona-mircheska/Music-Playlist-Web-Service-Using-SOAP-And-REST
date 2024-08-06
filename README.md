@@ -1,4 +1,4 @@
-Playlist Web Service
+Music Playlist Web Service
 
 The Playlist Service offers a range of functionalities to manage user playlists. It supports both SOAP and REST protocols, with different functionalities implemented using each protocol.
 
