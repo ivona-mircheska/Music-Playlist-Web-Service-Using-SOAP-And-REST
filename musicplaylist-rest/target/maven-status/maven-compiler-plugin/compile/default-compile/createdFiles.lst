@@ -1,0 +1,8 @@
+com\musicplaylist\musicplaylistrest\model\SongList.class
+com\musicplaylist\musicplaylistrest\MusicplaylistRestApplication.class
+com\musicplaylist\musicplaylistrest\rest\controller\ApiControllers.class
+com\musicplaylist\musicplaylistrest\model\Song.class
+com\musicplaylist\musicplaylistrest\model\PlaylistList.class
+com\musicplaylist\musicplaylistrest\model\UserList.class
+com\musicplaylist\musicplaylistrest\model\Playlist.class
+com\musicplaylist\musicplaylistrest\model\User.class
