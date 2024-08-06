@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://example.com/playlist/registering"
+	xmlns:tns="http://example.com/playlist/registering"
+	elementFormDefault="qualified">
+
+	<xsd:element name="RegisterRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="username" type="xsd:string" />
+				<xsd:element name="email" type="xsd:string" />
+				<xsd:element name="password" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="RegisterResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="success" type="xsd:boolean" />
+				<xsd:element name="message" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

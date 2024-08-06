@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://example.com/playlist/sendPlaylist"
+	xmlns:tns="http://example.com/playlist/sendPlaylist"
+	elementFormDefault="qualified">
+
+	<xsd:element name="sendPlaylistRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="fromUser" type="xsd:string" />
+				<xsd:element name="toUser" type="xsd:string" />
+				<xsd:element name="name" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="sendPlaylistResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="message" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
