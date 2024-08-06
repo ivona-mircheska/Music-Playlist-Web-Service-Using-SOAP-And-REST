@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://example.com/playlist/playlistInfo"
+	xmlns:tns="http://example.com/playlist/playlistInfo"
+	elementFormDefault="qualified">
+
+	<xsd:element name="playlistInfoRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="name" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="playlistInfoResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="playlistDuration" type="xsd:double" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

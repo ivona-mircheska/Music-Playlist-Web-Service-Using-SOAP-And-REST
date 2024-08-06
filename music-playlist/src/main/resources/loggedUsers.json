@@ -1,0 +1,12 @@
+{
+  "loggedUsers": [
+    {
+      "username": "user1",
+      "sessionID": "346"
+    },
+    {
+      "username": "user2",
+      "sessionID": "8042"
+    }
+  ]
+}
